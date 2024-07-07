@@ -99,7 +99,7 @@ export class Game {
       this.player1.send(
         JSON.stringify({
           type: MOVE,
-          playload: move,
+          payload: move,
         })
       );
     }

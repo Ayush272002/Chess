@@ -72,7 +72,7 @@ class Game {
             console.log("sent2");
             this.player1.send(JSON.stringify({
                 type: messages_1.MOVE,
-                playload: move,
+                payload: move,
             }));
         }
         this.moveCount++;

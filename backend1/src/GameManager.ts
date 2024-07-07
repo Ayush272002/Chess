@@ -45,7 +45,7 @@ export class GameManager {
         );
         if (game) {
           console.log("inside make move")
-          game.makeMove(socket, message.move);
+          game.makeMove(socket, message.payload.move);
         }
       }
     });
